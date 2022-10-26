@@ -1,0 +1,31 @@
+ .element{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: myAnimation;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    
+}
+
+
+@keyframes myAnimation {
+    
+
+    25%{
+        background-color: rgb(167, 25, 124);
+        margin-left: 200px;
+    }
+    50%{
+        background-color: aqua;
+        margin-top: 200px;
+    }
+    75%{
+        background-color: rgb(0, 255, 0);
+        margin-right: 200px;
+    }
+    100%{
+        background-color: rgb(236, 98, 105);
+        margin-bottom: 200px;
+    }
+}
